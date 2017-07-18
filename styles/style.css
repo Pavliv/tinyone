@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+.custom-container {
+	max-width: 1400px;
+	margin: auto;
+	padding: 0 230px;
+}
+.header {
+	width: 100%;
+}
+.header img {
+	margin-top: 60px;
+}
+.header ul {
+	float: right;
+	margin: 0;
+}
+.header li {
+	display: inline-block;
+	margin: 65px 0 0 67px;
+	font-size: 22px;
+}
+.header a {
+	text-decoration: none;
+	color: #010101;
+	font-weight: 800;
+}
+.header a:hover {
+	color: #929292;
+}
+.header, .slider {
+	background-color: #fcdb00;
+}
+.carousel-inner {
+	height: 570px;
+}
+.carousel-indicators li {
+	background-color: rgba(255, 255, 255, 0.5);
+	border: none;
+	width: 12px;
+	height: 12px;
+}
+.slider {
+	padding: 60px 0 0 0;
+}
+.slider .slide-description {
+	margin-top: 70px;
+	width: 389px;
+	float: left;
+}
+.slide-description h2 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 32px;
+	color: #010101;
+}
+.slide-description h5 {
+	margin: 20px 0;
+	font-size: 20px;
+	color: #313841;
+}
+.slide-description p {
+	font-size: 16px;
+	color: #555555;
+}
+.slide-description i {
+	margin: 41px 38px 0 0;
+	font-size: 40px;
+	color: #010101;
+}
+.slider img {
+	width: 316px;
+	float: right;
+	margin-right: 40px;
+}
+
+
+
+
+
+@media (max-width: 1366px) {
+	.custom-container {
+		max-width: 1366px;
+		padding: 0 210px;
+	}
+	.carousel-inner {
+		height: 550px;
+	}
+	.slider .slide-description {
+		margin-top: 65px;
+		width: 40%;
+	}
+	.slider .slide-description p {
+		width: 120%;
+	}
+	.slider img {
+		width: 35%;
+		margin-right: 30px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.custom-container {
+		max-width: 1024px;
+		padding: 0 120px;
+	}
+	.header img {
+		margin-top: 40px;
+		width: 120px;
+	}
+	.header li {
+		margin: 45px 0 0 40px;
+		font-size: 18px;
+	}
+	.header, .slider {
+		background-color: red;
+	}
+	.carousel-inner {
+		height: 500px;
+	}
+	.slider .slide-description {
+		margin-top: 0;
+		width: 45%;
+	}
+	.slider .slide-description p {
+		width: 120%;
+		font-size: 12px;
+	}
+	.slide-description i {
+		margin: 10% 10% 0 0;
+	}
+	.slider img {
+		width: 35%;
+		margin: 0 3% 0 0;
+	}
+}
+
+
+
+
+@media (max-width: 750px) {
+	.header, .slider {
+		background-color: blue;
+	}
+}
+@media (max-width: 640px) {
+	.header, .slider {
+		background-color: green;
+	}
+}
