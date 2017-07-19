@@ -99,7 +99,7 @@ h5 {
 .features {
 	padding: 120px 0;
 }
-.features .centered-h2-h5 {
+.centered-h2-h5 {
 	text-align: center;
 }
 .features .flex-container {
@@ -143,21 +143,57 @@ h5 {
 	width: 80%;
 }
 
+/* SUBCRIBLE SECTION */
+.subcrible {
+	padding: 100px 0 30px;
+	background-color: #010101;
+	text-align: center;
+}
+.subcrible h2 {
+	color: #fcdb00;
+}
+.subcrible h5 {
+	color: #898989;
+}
+.subcrible form {
+	margin-top: 40px;
+}
+.subcrible input {
+	width: 70%;
+	padding: 15px;
+	border-radius: 5px;
+	border: none;
+}
+.subcrible button {
+	margin-left: 15px;
+	padding: 15px 30px;
+	background-color: #fcdb00;
+	border-radius: 5px;
+	border: none;
+	font-weight: 600;
+	color: #010101;
+}
+.subcrible i {
+	font-size: 40px;
+	margin: 80 17px;
+	color: #fcdb00;
+}
 
+/* FOOTER SECTION */
+.footer {
+	background-color: #010101;
+	padding-bottom: 140px;
+}
+.footer a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+.footer a:hover {
+	font-weight: 600;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* RESPONSIVE */
 @media (max-width: 1366px) {
 	.custom-container {
 		max-width: 1366px;
