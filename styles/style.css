@@ -84,10 +84,28 @@ h5 {
 	font-size: 16px;
 	color: #555555;
 }
-.slide-description i {
+.slide-description .fa-apple, .fa-android, .fa-windows {
 	margin: 41px 38px 0 0;
 	font-size: 40px;
 	color: #010101;
+}
+.slide-description button {
+	margin-top: 26px;
+	border: 2px solid #010101;
+	border-radius: 5px;
+	background-color: transparent;
+	width: 190px;
+	height: 54px;
+	color: #2d2d2d;
+	font-weight: bold;
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+.slide-description .fa-cloud-download {
+	padding: 0 0 20px 10px;
+}
+.slide-description button:hover {
+	background-color: #010101;
 }
 .slider img {
 	width: 316px;
@@ -300,6 +318,15 @@ h5 {
 		left: 55px;
 		font-size: 14px;
 	}
+	.subcrible i {
+		margin: 50 17px;
+	}
+	.footer {
+		padding-bottom: 100px;
+	}
+	.footer a {
+		font-size: 13px;
+	}
 }
 
 @media (max-width: 750px) {
@@ -345,6 +372,30 @@ h5 {
 		left: 50px;
 		font-size: 13px;
 	}
+	.subcrible {
+		padding: 70px 0 20px;
+	}
+	.subcrible input {
+		width: 80%;
+		border-radius: 5px 5px 0 0;
+	}
+	.subcrible button {
+		width: 80%;
+		margin: 0;
+		border-radius: 0 0 5px 5px;
+	}
+	.subcrible i {
+		margin: 60 17px;
+	}
+	.footer {
+		padding-bottom: 80px;
+		text-align: center;
+	}
+	.footer a {
+		font-size: 14px;
+		line-height: 1.8;
+		padding: 20px 5px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -366,6 +417,19 @@ h5 {
 	.features .flex-item {
 		width: 100%;
 	}
+	.subcrible {
+		padding: 50px 0 0;
+		margin-top: 220px;
+	}
+	.subcrible input {
+		width: 85%;
+	}
+	.subcrible button {
+		width: 85%;
+	}
+	.subcrible i {
+		margin: 40 17px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -386,11 +450,34 @@ h5 {
 		width: 64%;
 		margin: 10% 18% 2% 18%;
 	}
+	.subcrible input {
+		font-size: 12px;
+		width: 90%;
+	}
+	.subcrible button {
+		width: 90%;
+	}
+	.subcrible i {
+		margin: 40 10px;
+	}
 }
 
 @media (max-width: 320px) {
 	.slider img {
 		width: 80%;
 		margin: 10% 10% 2% 10%;
+	}
+	.subcrible {
+		margin-top: 250px;
+	}
+	.subcrible input {
+		font-size: 11px;
+		width: 95%;
+	}
+	.subcrible button {
+		width: 95%;
+	}
+	.subcrible i {
+		margin: 20 15px;
 	}
 }
